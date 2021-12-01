@@ -1,10 +1,10 @@
-" vim: shiftwidth=2 tabstop=20
+" vim: shiftwidth=8 tabstop=16
 "
 
-if exists("b:did_ftplugin")
-  finish
-endif
-set b:did_ftplugin = 1
+"if exists("b:did_ftplugin")
+"  finish
+"endif
+"set b:did_ftplugin = 1
 
 setlocal commentstring=#\ %s
 
