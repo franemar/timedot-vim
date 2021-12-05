@@ -1,5 +1,5 @@
 # timedot-vim
-timedot-vim is a vim-plugin to engance working with hledger timedot files.
+timedot-vim is a vim-plugin to enhance working with hledger timedot files.
 
 ## Introduction
 What's a timedot file? you ask? It is an elegantly simple file-format that can be parsed by hledger to keep track of/ budget/ invoice your time. timedot is perfect for recording time spent on things where you don't need clock-in clock-out precision, you just want to quickly make note of how much time you spent on various activities, per day. Because the format is so concise and human-read/writable, you are more likely to jot down time-spent notes. Adding or correcting entries after-the-fact is a quick edit away.
@@ -14,9 +14,10 @@ git clone https://github.com/linuxcaffe/timedot-vim.git
 ```
 and voila! installed! Now, on editing a `*.timedot` file, you should see improved syntax hilighting. 
 
-To install the handy `t.` script, you can copy it to, or link it to somewhere in your $PATH. I use something like;
+To install the handy `t.` script, you can copy it to, or link it to somewhere in your $PATH and make it executable. I use something like;
 ```
 ln -s ~/.vim/pack/plugin/start/timedot-vim/t. ~/bin/
+chmod +x ~/bin/t.
 ```
 
 ## Usage

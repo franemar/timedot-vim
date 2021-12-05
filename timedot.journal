@@ -1,0 +1,6 @@
+; timedot.journal
+; use this journal file with hledger. By including your timedot file from here, you can set commodity assertions and aliases 
+
+; this is a default file
+; change this to your actual file location/ name
+include ~/.vim/pack/plugin/start/timelog-vim/sample.timedot
