@@ -14,6 +14,11 @@ git clone https://github.com/linuxcaffe/timedot-vim.git
 ```
 and voila! installed! Now, on editing a `*.timedot` file, you should see improved syntax hilighting. 
 
+To install the handy `t.` script, you can copy it to, or link it to somewhere in your $PATH. I use something like;
+```
+ln -s ~/.vim/pack/plugin/start/timedot-vim/t. ~/bin/
+```
+
 ## Usage
 - editing file
 - reporting with hledger
